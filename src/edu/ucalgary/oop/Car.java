@@ -12,4 +12,16 @@ public class Car {
         this.engine = engine;
     }
 
+    public String getModel(){
+        return this.model;
+    }
+
+    public Driver getDriver(){
+        return this.driver;
+    }
+
+    public Engine getEngine(){
+        return this.engine;
+    }
+
 }
