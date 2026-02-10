@@ -3,19 +3,19 @@ package edu.ucalgary.oop;
 public class Driver {
     private string driverName;
 
-    public Driver(string name){
+    public Driver(String name){
         this.driverName = name;
     }
 
     public Driver(Driver other){
-        this.driverName = other;
+        this.driverName = other.getName();
     }
 
     public string getName(){
         return this.driverName;
     }
 
-    public setName(string name){
+    public void setName(String name){
         this.driverName = name;
     }
 }
