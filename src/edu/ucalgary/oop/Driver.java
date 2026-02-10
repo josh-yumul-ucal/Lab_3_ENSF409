@@ -12,7 +12,7 @@ public class Driver {
     }
 
     public string getName(){
-        return driverName;
+        return this.driverName;
     }
 
     public setName(string name){
