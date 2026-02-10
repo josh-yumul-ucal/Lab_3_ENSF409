@@ -11,7 +11,17 @@ public class Car {
         this.driver = driver;
         this.engine = engine;
     }
-
+    
+    public void setModel (String model) {
+    	this.model = model;
+    }
+    public void setDriver (Driver driver) {
+    	this.driver = driver;
+    }
+    public void setEnginer(Engine engine) {
+    	this.engine = engine;
+    }
+    
     public String getModel(){
         return this.model;
     }
@@ -23,5 +33,6 @@ public class Car {
     public Engine getEngine(){
         return this.engine;
     }
+    
 
 }
