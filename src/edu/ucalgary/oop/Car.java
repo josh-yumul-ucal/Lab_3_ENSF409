@@ -11,6 +11,12 @@ public class Car {
         this.driver = driver;
         this.engine = engine;
     }
+
+    public Car copy(boolean deepCopy){
+        Car copyCar = new Car(this.model, this.driver, this.engine);
+        return copyCar;
+
+    }
     
     public void setModel (String model) {
     	this.model = model;
